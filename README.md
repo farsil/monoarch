@@ -1,8 +1,10 @@
-# monoarch 
-monoarch is a theme for
+# Monoarch 
+Monoarch is a theme for
 [Plymouth](https://www.freedesktop.org/wiki/Software/Plymouth/) which exhibits
 a monochrome white on black look and feel. It displays the Arch Linux logo and
 a spinner. 
+
+![Splash screen preview](https://raw.githubusercontent.com/farsil/monoarch/gh-pages/images/monoarch.png)
 
 # Installation 
 Files should be placed in the Plymouth themes directory,
