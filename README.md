@@ -18,7 +18,8 @@ After that, simply change the Plymouth theme:
 
 And you're done.
 
-# Uninstall Simply remove the directory:
+# Uninstall 
+Simply remove the directory:
 
     # rm -rf /usr/share/plymouth/themes/monoarch
 
