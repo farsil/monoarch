@@ -24,6 +24,9 @@ And you're done.
 Simply remove the directory:
 
     # rm -rf /usr/share/plymouth/themes/monoarch
+    
+Remember to change your theme again otherwise Plymouth will fall back to its 
+default one.
 
 # Using with distributions other than Arch Linux 
 Nothing prevents you from doing that. If you want to replace the Arch Linux
