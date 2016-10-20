@@ -26,7 +26,7 @@ Remember to change the Plymouth theme:
 
     # plymouth-set-default-theme -R monoarch
 
-# Uninstall
+# Removal
 Simply remove the directory:
 
     # rm -rf /usr/share/plymouth/themes/monoarch
