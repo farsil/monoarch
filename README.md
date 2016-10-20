@@ -6,21 +6,27 @@ a spinner.
 
 ![Splash screen preview](https://raw.githubusercontent.com/farsil/monoarch/gh-pages/images/monoarch.png)
 
-# Installation 
-Files should be placed in the Plymouth themes directory,
-which is usually `/usr/share/plymouth/themes`. Until I will make a proper AUR
-package, you may install the theme by simply cloning the repository:
+# AUR Package 
+The AUR package for this theme is [plymouth-theme-monoarch](https://aur.archlinux.org/packages/plymouth-theme-monoarch/). You may use your favourite AUR helper or proceed with manual installation as described [here](https://wiki.archlinux.org/index.php/Arch_User_Repository#Installing_packages).
 
-    # cd /usr/share/plymouth/themes/ 
-    # git clone https://github.com/farsil/monoarch.git 
-
-After that, simply change the Plymouth theme:
+The package does not alter your Plymouth configuration, you have to change the theme manually. In order to do so, type:
 
     # plymouth-set-default-theme -R monoarch
 
 And you're done.
 
-# Uninstall 
+# Installation
+Files should be placed in the Plymouth themes directory,
+which is usually `/usr/share/plymouth/themes`. You may install the theme by simply cloning the repository:
+
+    # cd /usr/share/plymouth/themes/ 
+    # git clone https://github.com/farsil/monoarch.git 
+
+Remember to change the Plymouth theme:
+
+    # plymouth-set-default-theme -R monoarch
+
+# Uninstall
 Simply remove the directory:
 
     # rm -rf /usr/share/plymouth/themes/monoarch
