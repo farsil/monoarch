@@ -41,22 +41,16 @@
         <p>Monoarch is a theme for
 <a href="https://www.freedesktop.org/wiki/Software/Plymouth/">Plymouth</a> which exhibits
 a monochrome white on black look and feel. It displays the Arch Linux logo and
-a spinner.</p>
+a spinner. </p>
 
 <p><img src="https://raw.githubusercontent.com/farsil/monoarch/gh-pages/images/monoarch.png" alt="Splash screen preview"></p>
 
 <h1>
-<a id="installation" class="anchor" href="#installation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Installation</h1>
+<a id="aur-package" class="anchor" href="#aur-package" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>AUR Package</h1>
 
-<p>Files should be placed in the Plymouth themes directory,
-which is usually <code>/usr/share/plymouth/themes</code>. Until I will make a proper AUR
-package, you may install the theme by simply cloning the repository:</p>
+<p>The AUR package for this theme is <a href="https://aur.archlinux.org/packages/plymouth-theme-monoarch/">plymouth-theme-monoarch</a>. You may use your favourite AUR helper or proceed with manual installation as described <a href="https://wiki.archlinux.org/index.php/Arch_User_Repository#Installing_packages">here</a>.</p>
 
-<pre><code># cd /usr/share/plymouth/themes/ 
-# git clone https://github.com/farsil/monoarch.git 
-</code></pre>
-
-<p>After that, simply change the Plymouth theme:</p>
+<p>The package does not alter your Plymouth configuration, you have to change the theme manually. In order to do so, type:</p>
 
 <pre><code># plymouth-set-default-theme -R monoarch
 </code></pre>
@@ -64,12 +58,30 @@ package, you may install the theme by simply cloning the repository:</p>
 <p>And you're done.</p>
 
 <h1>
-<a id="uninstall" class="anchor" href="#uninstall" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Uninstall</h1>
+<a id="installation" class="anchor" href="#installation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Installation</h1>
+
+<p>Files should be placed in the Plymouth themes directory,
+which is usually <code>/usr/share/plymouth/themes</code>. You may install the theme by simply cloning the repository:</p>
+
+<pre><code># cd /usr/share/plymouth/themes/ 
+# git clone https://github.com/farsil/monoarch.git 
+</code></pre>
+
+<p>Remember to change the Plymouth theme:</p>
+
+<pre><code># plymouth-set-default-theme -R monoarch
+</code></pre>
+
+<h1>
+<a id="removal" class="anchor" href="#removal" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Removal</h1>
 
 <p>Simply remove the directory:</p>
 
 <pre><code># rm -rf /usr/share/plymouth/themes/monoarch
 </code></pre>
+
+<p>Remember to change your theme again otherwise Plymouth will fall back to its 
+default one.</p>
 
 <h1>
 <a id="using-with-distributions-other-than-arch-linux" class="anchor" href="#using-with-distributions-other-than-arch-linux" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Using with distributions other than Arch Linux</h1>
