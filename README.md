@@ -4,7 +4,7 @@ Monoarch is a theme for
 a monochrome white on black look and feel. It displays the Arch Linux logo and
 a spinner. 
 
-![Splash screen preview](https://raw.githubusercontent.com/farsil/monoarch/gh-pages/images/monoarch.png)
+![Splash screen preview](https://farsil.github.io/monoarch/images/monoarch.png)
 
 # AUR Package 
 The AUR package for this theme is [plymouth-theme-monoarch](https://aur.archlinux.org/packages/plymouth-theme-monoarch/). You may use your favourite AUR helper or proceed with manual installation as described [here](https://wiki.archlinux.org/index.php/Arch_User_Repository#Installing_packages).
