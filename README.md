@@ -5,6 +5,7 @@ a monochrome white on black look and feel. It displays the Arch Linux logo and
 a spinner. 
 
 ![Splash screen preview](https://farsil.github.io/monoarch/images/monoarch.png)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Ffarsil%2Fmonoarch.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Ffarsil%2Fmonoarch?ref=badge_shield)
 
 # AUR Package 
 The AUR package for this theme is [plymouth-theme-monoarch](https://aur.archlinux.org/packages/plymouth-theme-monoarch/). You may use your favourite AUR helper or proceed with manual installation as described [here](https://wiki.archlinux.org/index.php/Arch_User_Repository#Installing_packages).
@@ -48,3 +49,7 @@ Arch Linux logo taken from
 [https://www.archlinux.org/art/](https://www.archlinux.org/art/).
 
 Spinner pictures and a large part of code taken from the default Plymouth themes.
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Ffarsil%2Fmonoarch.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Ffarsil%2Fmonoarch?ref=badge_large)
